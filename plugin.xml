@@ -33,6 +33,7 @@
 				<category android:name="android.intent.category.DEFAULT" />
 				<category android:name="android.intent.category.BROWSABLE" />
 				<data android:scheme="$URL_SCHEME" />
+				<data android:scheme="$DEEPLINK_SCHEME" />
 				<data android:host="$DEEPLINK_HOST" />
 				<data android:pathPrefix="$ANDROID_PATH_PREFIX" />
 			</intent-filter>
